@@ -1,0 +1,24 @@
+body{
+padding: 0;
+margin: 0;
+}
+h1 {
+    background-color: rgb(120, 112, 112);
+    color: white;
+}
+UL{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+LI{
+    background-color: gray;
+    display: inline-block;
+    padding: 10PX;
+}
+UL LI:hover {
+    background-color: aqua;
+    color: white;
+    padding-left: 25px;
+    transition: 0.8s;
+}
